@@ -5,7 +5,7 @@ from datetime import datetime
 def connect_to_database():
     try:
         conn = mysql.connector.connect(
-            host='192.168.1.74',  # Elastic IP address
+            host='124.243.138.163',  # Elastic IP address
             user='root',  # Your RDS login username
             password='Huawei123!!',  # Your RDS login password
             database='wallet-private-address'  # Your database name
