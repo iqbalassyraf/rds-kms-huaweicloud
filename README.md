@@ -24,6 +24,9 @@ Establish connection from Backend ECS to RDS for MySQL.
 2. Customize your application code to access RDS for MySQL (Code example, see on Master branch).
 3. Install the necessary dependencies on your ECS such as my.sql.connector or other that suits your application needs.
 
+for consideration:
+To secure data in transit with SSL/TLS on Huawei Cloud, it's essential to implement HTTPS for encrypting communication between clients and servers, utilizing trusted SSL/TLS certificates obtained from reputable certificate authorities. Configure servers to use secure communication protocols like TLS 1.2 or later, while disabling older, less secure protocols, and enforce strong encryption algorithms and key lengths. Regularly monitor SSL/TLS traffic for anomalies, perform audits of SSL/TLS configurations, and leverage Huawei Cloud's monitoring and auditing tools to ensure compliance with security best practices and regulatory requirements, thereby safeguarding data against eavesdropping and tampering during transmission.
+
 For more information contact:
 Iqbal Assyraf
 Huawei Cloud Solution Architect
